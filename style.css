@@ -60,3 +60,22 @@ input {
 body {
   background-color: var(--body-color);
 }
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
