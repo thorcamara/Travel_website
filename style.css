@@ -109,3 +109,7 @@ img {
   font-size: var(--h1-font-size);
   margin-bottom: 1.5rem;
 }
+
+.main {
+  overflow: hidden;
+}
