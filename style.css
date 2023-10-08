@@ -147,9 +147,9 @@ img {
 @media screen and (max-width: 1023px) {
   .nav_menu {
     position: fixed;
-    top: 0;
+    top: -100%;
     left: 0;
-    background-color: gray;
+    background-color: hsla(0, 0%, 0%, .3);
     width: 100%;
     padding-block: 4rem;
     backdrop-filter: blur(24px);
@@ -162,4 +162,16 @@ img {
   text-align: center;
   display: flex;
   flex-direction: 2.5rem;
+}
+
+.nav__link {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-medium);
+}
+
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
 }
