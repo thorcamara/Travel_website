@@ -333,3 +333,7 @@ img {
             hsla(0, 0%, 0%, 0) 50%,
             hsla(0, 0%, 0%), 125%);
 }
+
+.about__image:hover .about__img {
+  transform: scale(1.2);
+}
