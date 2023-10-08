@@ -202,3 +202,18 @@ img {
   height: 800px;
   background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 58%, hsl(0, 0%, 0%) 78%);
 }
+
+.home__container {
+  position: relative;
+  padding-top: 3rem;
+  row-gap: 3rem;
+}
+
+.home__data {
+  text-align: center;
+}
+
+.home__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: .5rem;
+}
