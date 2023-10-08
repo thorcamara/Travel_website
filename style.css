@@ -217,3 +217,18 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: .5rem;
 }
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 1rem;
+}
+
+.home__description {
+  margin-bottom: 2rem;
+  color: var(--title-color);
+}
+
+.home__cards {
+  grid-template-columns: 240px;
+  justify-content: center;
+}
