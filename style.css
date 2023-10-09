@@ -487,3 +487,7 @@ img {
   background: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 50%,
       hsl(0, 0%, 0%) 125%);
 }
+
+.join__image:hover .join__img {
+  transform: scale(1.2);
+}
