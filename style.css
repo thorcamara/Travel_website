@@ -524,3 +524,16 @@ img {
   display: grid;
   row-gap: .75rem;
 }
+
+.footer__link {
+  color: var(--text-color);
+  transition: color .4s;
+}
+
+.footer__link:hover {
+  color: var(--title-color);
+}
+
+.footer__group, .footer__social {
+  display: flex;
+}
