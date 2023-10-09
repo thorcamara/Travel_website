@@ -262,7 +262,7 @@ img {
   top: 0;
   left: 0;
   background: linear-gradient(180deg, hsla(0, 0%, 0%, 0), 50%,
-  hsl(0, 0%, 0%) 125%);
+      hsl(0, 0%, 0%) 125%);
 }
 
 .home__card-title {
@@ -330,8 +330,8 @@ img {
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg,
-            hsla(0, 0%, 0%, 0) 50%,
-            hsla(0, 0%, 0%), 125%);
+      hsla(0, 0%, 0%, 0) 50%,
+      hsla(0, 0%, 0%), 125%);
 }
 
 .about__image:hover .about__img {
@@ -361,9 +361,9 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, 
-              hsla(0, 0%, 0%, 0) 50%,
-              hsla(0, 0%, 0%) 125%);
+  background: linear-gradient(180deg,
+      hsla(0, 0%, 0%, 0) 50%,
+      hsla(0, 0%, 0%) 125%);
 }
 
 .popular__title {
@@ -410,10 +410,10 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, hsl(0, 0%, 0%) 5%, 
-  hsl(0, 0%, 0%, 0) 40%,
-  hsl(0, 0%, 0%, 0) 60%,
-  hsl(0, 0%, 0%, 0) 92%);
+  background: linear-gradient(180deg, hsl(0, 0%, 0%) 5%,
+      hsl(0, 0%, 0%, 0) 40%,
+      hsl(0, 0%, 0%, 0) 60%,
+      hsl(0, 0%, 0%, 0) 92%);
 }
 
 .explore__content {
@@ -438,4 +438,17 @@ img {
 .explore__name {
   font-size: var(--small-font-size);
   color: var(--title-color);
+}
+
+.join__container {
+  row-gap: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+.join__data {
+  text-align: center;
+}
+
+.join__description {
+  margin-bottom: 2rem;
 }
