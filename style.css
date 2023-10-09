@@ -452,3 +452,17 @@ img {
 .join__description {
   margin-bottom: 2rem;
 }
+
+.join__form {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.join__input {
+  padding: 1.25rem 1rem;
+  background-color: var(--container-color);
+}
+
+.join__button {
+  cursor: pointer;
+}
