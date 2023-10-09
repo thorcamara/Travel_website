@@ -429,3 +429,13 @@ img {
   justify-content: center;
   column-gap: .5rem;
 }
+
+.explore__perfil {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.explore__name {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
