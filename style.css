@@ -559,3 +559,9 @@ img {
   color: var(--title-color);
   transform: translateY(-.25rem);
 }
+
+.footer__copy {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  text-align: center;
+}
