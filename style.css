@@ -171,6 +171,17 @@ img {
   font-weight: var(--font-medium);
 }
 
+.nav__link::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: var(--title-color);
+  position: absolute;
+  left: 0;
+  bottom: -.5rem;
+  transition: width .3s;
+}
+
 .nav__close {
   position: absolute;
   top: 1rem;
@@ -535,7 +546,8 @@ img {
   color: var(--title-color);
 }
 
-.footer__group, .footer__social {
+.footer__group,
+.footer__social {
   display: flex;
 }
 
