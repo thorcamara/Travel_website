@@ -596,3 +596,7 @@ img {
   z-index: var(--z-tooltip);
   transition: bottom .4s, transform .4s;
 }
+
+.scrollup:hover {
+  transform: translateY(-.25rem);
+}
