@@ -205,6 +205,10 @@ img {
   z-index: -1;
 }
 
+.active__link::after {
+  width: 70%;
+}
+
 .home {
   position: relative;
 }
