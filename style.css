@@ -571,3 +571,8 @@ img {
   border-radius: .5rem;
   background-color: hsl(0, 0%, 10%);
 }
+
+::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  background-color: hsl(0, 0%, 20%);
+}
