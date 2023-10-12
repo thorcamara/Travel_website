@@ -600,3 +600,7 @@ img {
 .scrollup:hover {
   transform: translateY(-.25rem);
 }
+
+.show-scroll {
+  bottom: 3rem;
+}
