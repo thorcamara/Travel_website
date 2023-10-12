@@ -565,3 +565,9 @@ img {
   color: var(--text-color-light);
   text-align: center;
 }
+
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(0, 0%, 10%);
+}
