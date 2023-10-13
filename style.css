@@ -695,3 +695,24 @@ img {
     order: -1;
   }
 }
+
+@media screen and (min-width: 1023px) {
+  .nav__close,
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 4rem;
+  }
+
+  .popular__container {
+    grid-template-columns: repeat(3, 240px);
+  }
+
+  .footer__data {
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 4.5rem;
+  }
+}
