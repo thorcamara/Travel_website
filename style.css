@@ -635,3 +635,18 @@ img {
     grid-template-columns: max-content;
   }
 }
+
+@media screen and (min-width: 576px) {
+
+  .home__container,
+  .about__container,
+  .explore__content,
+  .join__container {
+    grid-template-columns: 380px;
+    justify-content: center;
+  } 
+
+  .footer__data {
+    grid-template-columns: repeat(3, max-content);
+  }
+}
