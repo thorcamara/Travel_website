@@ -801,4 +801,8 @@ img {
     font-size: var(--normal-font-size);
   }
 
+  .explore__img {
+    height: 600px;
+  }
+
 }
