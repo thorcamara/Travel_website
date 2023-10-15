@@ -145,7 +145,7 @@ img {
 }
 
 @media screen and (max-width: 1023px) {
-  .nav_menu {
+  .nav__menu {
     position: fixed;
     top: -100%;
     left: 0;
@@ -161,11 +161,11 @@ img {
 .nav__list {
   text-align: center;
   display: flex;
-  flex-direction: 2.5rem;
+  flex-direction: column;
+  row-gap: 2.5rem;
 }
 
 .nav__link {
-  position: relative;
   color: var(--title-color);
   font-family: var(--second-font);
   font-weight: var(--font-medium);
